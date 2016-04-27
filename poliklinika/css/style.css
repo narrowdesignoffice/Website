@@ -1,0 +1,724 @@
+/******** HEAD *******/
+body a {text-decoration: none;}
+#head {
+	background-color: #e44c4c;
+	color: white;
+	height: 35px;
+	line-height: 35px;
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+#head-content, #header-content {
+	width: 1133px;
+	height: auto;
+	max-width:100%; 
+	margin:0 auto;
+	clear: both;
+}
+
+#head #phone {
+	float:left;padding-left: 1px;}
+
+#head #phone img {
+	float:left;
+	padding: 7px 10px 7px 0;}
+
+#head #phone span {padding-left: 17px;}
+
+#head #social img{
+	float: right;padding-right: 40px;}
+
+#head #social1 img {
+	float: right;
+	margin: 6px 0;
+	padding-right: 10px; 
+	width: auto; 
+	height: auto;
+	}
+
+#head #social img{
+	margin: 5px 0; 
+	width: auto; 
+	height: auto;}
+
+/******** HEADER-CONTENT *******/
+
+#header-content {
+	height: 115px;
+	line-height: 115px;
+}
+
+#header-content #logo {
+	color: #666666; 
+	font-size: 36px;
+	float: left;
+	width: 450px;
+	padding-left: 1px;
+	line-height: 125px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
+
+#header-content #logo img {
+	width:91px;
+	height: 91px;
+	padding: 19px 20px 20px 0;
+	float: left;	
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500
+}
+#header-content #logo span {color: #e44c4c;}
+
+/********** NAVIGATION **************/
+
+nav {
+	width: auto;
+	/*max-width:1133px;*/
+	float: left;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	margin: 0;
+	padding: 0;
+	line-height: 125px;
+}
+
+nav ul li {
+	float: left; 
+	color: #231f20;
+	width: 100px;
+	padding: 0px 5px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	text-align: center;
+}
+
+nav ul a:hover li{
+	background: url('../images/nav.png') 5px 0px no-repeat; 
+	color: white;}
+
+#wrapper {
+	width: 100%	;
+	height: 100%;
+	padding: 0 auto;
+	margin: 0 auto;
+}
+
+#banner {
+	width: auto;
+	height: auto;
+ 	margin: 0 auto;
+ }
+
+ /******* CONTENT *******/
+
+ #content {
+ 	width: 1133px;
+ 	max-width: 100%;
+ 	margin: 0 auto;
+ 	padding: 0;
+ 	clear: both;
+ }
+
+ #content .box{
+ 	width: 45%; 
+ 	height: auto;
+ 	float: left;
+ 	margin-top: 47px;
+ 	margin-bottom: 50px;
+ 	margin-left: 56px; 	
+ }
+ #content .box .title {
+ 	font-family: 'Roboto', sans-serif;
+ 	font-size: 26px;
+ 	font-weight: 700;
+ 	color: #231f20;
+ 	padding-left: 10px;
+ 	border-left: 3px solid #e44c4c;
+ }
+
+
+ #content .box .subtitle {
+ 	font-family: 'Roboto', sans-serif;
+ 	font-size: 20px;
+ 	font-weight: 500;
+ 	color: #615f60;
+ 	padding-left: 10px;
+ 	border-left: 3px solid #e44c4c;
+ }
+
+#content .delatnosti{
+	width: 382px;
+	float: left;
+	width: auto;
+}
+
+ #content .delatnosti ul {
+ 	list-style-type: none;
+    padding: 0 0 0 27px;
+    margin: 0px;
+
+ }
+ #content .delatnosti ul li {
+ 	font-family: 'Roboto', sans-serif;
+ 	font-weight:400;
+ 	font-size: 20px;
+ 	color:#4b4b4b;
+ 	background-image: url('../images/bullet-list.png');
+    background-repeat: no-repeat;
+    background-position: 0px 24px; 
+    padding-left: 25px;
+    padding-top: 25px;
+ }
+
+.divider {width: 23%; height: 1px; background-color: #d1d1d1;float: right;margin-top: 5%; margin-right: 3%;}
+.divider1 {width: 79%; height: 1px; background-color: #d1d1d1;float: right; margin-top: 1%;}
+.divider2 {width: 57%; height: 1px; background-color: #d1d1d1;float: right; margin-top: 1%;}
+
+#box-zgrada {
+	font-family: 'Roboto', sans-serif;
+	font-weight:400;
+ 	font-size: 18px;
+ 	color:#4b4b4b;
+	clear: both; 
+	padding-top: 50px;
+	
+}
+
+#title-zgrada {
+	margin-bottom: 50px;
+}
+#box-zgrada img {
+	width:218px; 
+	height: 149px;
+	border: 1px solid #d1d1d1;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+#boximg {
+	margin-left: 7%;}
+
+#kontakt {
+	width: 100%;
+	height: 83px;
+	margin-top: 50px;
+	color: white;
+	background: #e44c4c;
+}
+#kontakt #tekst {
+	line-height: 83px;
+	float: left;
+	width: auto;
+	font-size: 24px;
+	font-weight: 300;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-style: italic;
+	padding-left: 95px;
+}
+#kontakt #tekst b {font-weight: 700;}
+#kontakt button {
+	cursor: pointer;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500px;
+	height: 49px; 
+	background: white; 
+	color: #231f20;
+	float: right;
+	margin: 17px 95px;
+	border: none;
+	border-radius: 10px;
+	padding-right: 30px;
+}
+#kontakt button img {
+	margin: 0 5px 0 30px;
+}
+#content .box-o-nama {
+	font-family: 'Roboto', sans-serif;
+ 	font-size: 24px;
+ 	color: #231f20;
+}
+#content .box-o-nama .title {
+ 	font-family: 'Roboto', sans-serif;
+ 	font-size: 24px;
+ 	font-weight: 700;
+ 	color: #231f20;
+ 	padding-left: 10px;
+ 	margin-top: 50px;
+ 	border-left: 3px solid #e44c4c;
+ }
+
+
+ #content .box-o-nama .subtitle {
+ 	font-family: 'Roboto', sans-serif;
+ 	font-size: 18px;
+ 	font-weight: 500;
+ 	color: #615f60;
+ 	padding-left: 10px;
+ 	margin-bottom: 50px;
+ 	border-left: 3px solid #e44c4c;
+ }
+ #content .box-o-nama #left {
+ 	width: 565px;
+ 	height: 100%;
+ 	text-align: justify;
+ 	float: left;
+ 	color: #4b4b4b;
+ 	font-size: 24px;
+ 	margin-bottom: 100px;
+ 	font-family: 'Roboto', sans-serif;
+}
+#content .box-o-nama #left p, #right p {
+	width: 90%;
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 400;
+	padding-top: 50px;
+	content: #4b4b4b;
+	font-family: 'Roboto', sans-serif;
+}
+ 
+#content .box-o-nama #right {
+	width: 492px;
+ 	height: 100%;
+ 	text-align: justify;
+ 	font-weight: 300;
+ 	font-family: 'Roboto', sans-serif;
+ 	font-size: 24px;
+ 	color: white;
+	border-style: double;
+  	border-width: 6px;
+  	border-color: white;
+	background-color: #e44c4c;
+	padding: 57px 30px;
+	margin-bottom: 100px;
+ 	float: left;
+
+}
+#content .box-o-nama #right img {
+	margin-right: 20px;
+}
+#content .box-o-nama #right p {
+	width: 100%;
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 300;
+	font-style: italic;
+}
+
+#content .box-o-nama #left p span a {
+	float: right; 
+	text-align: right;
+	font-size: 14px;
+	font-style: italic; 
+	text-decoration: none; 
+	color: #e44c4c;}
+
+#footer {
+	width: 100%; 
+	height: auto; 
+	background: #17181a; 
+	color: white; 
+	clear: both;
+	float: left; 
+	
+	padding-bottom: 50px;
+}
+
+#footer2 {
+	width: 100%; 
+	height: 70px; 
+	background: #303133; 
+	text-align: center;
+	float: left; 
+	font-size: 12px; 
+	line-height: 70px; 
+	color: #7d7e82;
+	font-family: 'Roboto', sans-serif; 
+	font-weight: 400;}
+
+#footer2 span {color: #e44c4c;}
+
+#footer-content {
+	width: 100%;
+	max-width: 1133px;
+	margin:0 auto;
+	font-family: 'Roboto', sans-serif; 
+	font-weight: 400;
+}
+#footer-content .footer-box h5 {
+	color: #666666; 
+	font-size: 18px; 
+	font-family: 'Roboto', sans-serif; 
+	font-weight: 500;}
+
+#footer-content .footer-box h5 span {color: #e44c4c; text-decoration: none;}
+
+#footer-content .footer-box  a img {padding-top: 30px;}
+
+#footer-content .footer-box a img[alt="rss"] {padding-left: 20px; }
+
+#info,#vreme, #lokacija {
+	line-height: 20px;
+	width: 375px;
+	float: left;
+}
+#info span {color: #e44c4c;} 
+
+.footer-box{
+	float:left;
+	color: #c8c8c8;
+	width: 375px;
+	margin-top: 47px;}
+
+/*********** DELATNOSTI STRANICA ***********************/
+#delatnosti {
+	width: 100%;
+	height: 100%;
+	margin-top: 110px;
+	float: left;
+}
+.delatnosti-lista
+{
+	height: 285px;
+	width: 250px;
+	font-family: 'Roboto', sans-serif;
+	float: left;
+	margin: 0 15px;
+}
+#delatnosti .delatnosti-lista img {
+	width: 66px;
+	height: 66px;
+	margin: 0 92px;
+}
+.delatnosti-lista .title {
+	font-weight: 500;
+	font-size: 18px;
+	text-align:center;
+	color: #231f20;
+	padding:30px 0;
+}
+.delatnosti-lista .opis {
+	font-size: 14px;
+	font-weight: 400;
+	text-align:center;
+	color: #4b4b4b;
+	border-top: 1px solid #d1d1d1;
+	padding: 30px 0;
+}
+#delatnosti .box.del {
+	clear:both; 
+	float: none;
+	margin:0 0 50px 0;
+}
+
+/******* STRUCNI TIME *************/
+
+#strucnitim {
+	width: 1133px;
+	max-width: 100%;
+	height: auto;
+}
+#strucnitim .box {width:100%;clear: both; margin-bottom:50px; }
+
+#struc-box {margin: 100px 119px; }
+
+#strucnitim #lista-imena
+{
+	width: 447px;
+	height: 90px;
+	color: #231f20;
+	font-family: 'Roboto', sans-serif;
+	font-size:24px;
+	font-weight: 500;
+	float: left;
+}
+#strucnitim #lista-imena .imena {line-height: 19px;padding: 25px 0 25px 5px;}
+
+#strucnitim #lista-imena .imena span
+{
+	font-size: 18px;
+	color: #4b4b4b;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+#strucnitim #lista-imena .imena.color 
+{
+	background-color: #f1f1f1;
+}
+#strucnitim p {
+	text-align: justify;
+	clear: both;
+	color: #4b4b4b;
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 30px;
+}
+#kontakt-box {
+	width: 100%;
+	height: 83px;
+	background: #e44c4c;
+	margin: 100px 0 0 0;
+}
+#kontakt-box #kontakt{width: 1133px;
+	max-width: 100%;
+	height: 83px;
+	margin: 0 auto;
+	color: white;
+	background: #e44c4c;}
+
+/************* CONTACT STRANICA ************/
+
+#contact {
+	width: 1133px;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	clear: both;
+}
+
+#map {
+	margin:50px 0;
+	clear: both;}	
+#map{
+        position: relative;
+        padding-bottom: 30%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+    #map iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+#galerija {
+	clear: both;  
+	max-width: 100%; 
+	height: auto;
+	margin: 0 33px;padding-top: 25px;position: relative;
+}
+#content a img.mala {
+	width: 290px; 
+	height: 280px;
+	margin: 25px 25px;
+	border: 2px double #d1d1d1;
+	border-width: 3px;
+}
+
+#content a img:hover {
+	width: 290px;
+	height: 280px;
+	border-bottom: 2px solid #e44c4c;
+}
+
+#forma-box {
+	width: 1133px;
+	max-width: 100%;
+	height: auto;
+}
+/************ KONTAKT FORMA ********************************/
+.contact_title {
+	padding: 0 0 20px 6px;
+}
+#contact_form {
+	font-family: 'Roboto', sans-serif;
+	color:#0f2806;
+	width: 480px;
+	font-weight: 300;
+	font-size: 20px; 
+	float: left;
+
+}
+#forma input {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-style: italic;
+	border: none; 
+	height: 30px; 
+	width: 220px; 
+	color: #615f60;
+	float: left;
+	margin: 10px 6px 10px 6px;
+	padding: 2px 0 0 5px;
+	border: 1px solid #d1d1d1;
+}
+#forma #email {
+	margin: 10px 6px 10px 6px;
+	font-style: italic;font-family: 'Roboto', sans-serif;
+}
+#forma textarea {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-style: italic;
+	width: 95%;
+	height: 90px;
+	float: left;
+	border:none;
+	margin: 10px 0 0 7px;
+	padding: 2px 0 0 5px;
+	color: #615f60;
+	border: 1px solid #d1d1d1;
+
+}
+#forma #sendbutton {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	width: 82px;
+	height: 30px;
+	font-size: 16px;
+	float: right;
+	color: white;
+	padding: 5px;
+	margin-right: 10px;
+	background: #e44c4c;
+}
+/**************************************************************************/
+#informacije {
+	font-family: 'Roboto', sans-serif;
+	width: 260px;
+	margin: 0 0 3% 21%;
+	float: left;
+	font-weight: 300;
+	color:#615f60;
+	font-size: 18px;
+	
+}
+
+#informacije .title {
+	font-family: 'Roboto', sans-serif;
+	font-size:20px;
+	color: #231f20;
+	padding: 0 0 30px 0;
+}
+
+#informacije #adresa
+{
+	padding: 20px;
+	line-height: 20px;
+	border-top: 1px solid #d1d1d1;
+	border-bottom: 1px solid #d1d1d1;
+	position: relative;
+}
+
+#informacije #telefoni
+{
+	padding: 20px;
+	line-height: 23px;
+	border-bottom: 1px solid #d1d1d1;
+	position: relative;
+}
+
+#informacije #mail {
+	padding: 20px 0 20px 25px;
+	position: relative;
+
+}
+
+#informacije .soc {
+	padding: 20px 0 20px 35px;
+	border-top: 1px solid #d1d1d1;
+	position: relative;
+}
+#informacije .soc a {color: #615f60;}
+#informacije #adresa img {
+	position: absolute;
+	top: 22px;
+	left: 0;
+	z-index: 112;
+}
+#informacije #telefoni img {
+	position: absolute;
+	top: 25px;
+	left: 0;
+	z-index: 112;
+}
+#informacije #mail img {
+	position: absolute;
+	top: 22px;
+	left: 0;
+	z-index: 112;
+}
+#informacije .soc img {
+	position: absolute;
+	top: 18px;
+	left: 0;
+	z-index: 112;
+}
+
+#cenovnik {
+	width: 1133px;
+	max-width: 100%;
+	height: auto;
+}
+
+table {
+	font-family:'Roboto', sans-serif;
+	color: #4b4b4b;
+	font-weight: 300;
+	border-bottom:1px solid #e44c4c;
+}
+table caption {
+	font-size: 25px; 
+	font-weight:400; 
+	padding:7px 0; 
+	background-color: #e44c4c; 
+	margin-top:3px; 
+	color: white;}
+
+table tr {
+	width: 610px; 
+	height: 36px; 
+	
+	}
+table th {border-top: 1px solid #d1d1d1;}
+
+table tr th.span{background: #f1f1f1;}
+
+table tr:first-child th {border-top:none;}
+
+table th {
+	width: 426px;
+	text-align:left; 
+	padding-left: 15px;
+	padding-right: 5px;
+	padding-top: 9px;
+	padding-bottom: 9px;
+	border-left:1px solid #e44c4c;
+	font-size: 16px;}
+
+table th.price {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 400;
+	border-left:1px solid #e44c4c; 
+	border-right:1px solid #e44c4c; 
+	text-align: center; 
+	width: 103px; 
+	padding:0;}
+
+table.left {
+	float: left;
+	margin-bottom: 50px;
+	border: 1px solid #e44c4c;}
+
+table.right{
+	float: right;
+	margin-bottom: 50px;
+	border: 1px solid #e44c4c;}
+
+
+
+
+
+
+
+
+
+
+@media only screen 
+and (max-width : 1224px) {
+table.right{float: left;padding-right:70px; }
+}
